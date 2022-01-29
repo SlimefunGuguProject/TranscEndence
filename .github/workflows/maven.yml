@@ -34,5 +34,5 @@ jobs:
         if: success()
         with:
           name: TranscEndence zh-CN
-          path: target/TranscEndence v35 zh-CN.jar
+          path: target/TranscEndence v40 zh-CN.jar
 # 注意要和打包出来的一致.
