@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.sfiguz7</groupId>
     <artifactId>TranscEndence</artifactId>
-    <version>35 zh-CN</version>
+    <version>40 zh-CN</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
