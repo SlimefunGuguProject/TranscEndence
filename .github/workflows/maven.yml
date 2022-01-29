@@ -33,6 +33,6 @@ jobs:
         uses: actions/upload-artifact@v2
         if: success()
         with:
-          name: TranscEndence
+          name: TranscEndence zh-CN
           path: target/TranscEndence v40 zh-CN.jar
 # 注意要和打包出来的一致
