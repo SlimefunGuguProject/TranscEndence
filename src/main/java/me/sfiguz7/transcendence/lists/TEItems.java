@@ -193,7 +193,7 @@ public final class TEItems {
     public static final SlimefunItemStack NANOBOT_CRAFTER = new SlimefunItemStack("NANOBOT_CRAFTER",
         Material.CHISELED_STONE_BRICKS,
         "&c纳米工作台",
-        "末地科技最基本制作"
+        "&7末地科技最基本制作"
     );
 
 
@@ -201,7 +201,7 @@ public final class TEItems {
     public static final SlimefunItemStack QUIRP_OSCILLATOR = new SlimefunItemStack("QUIRP_OSCILLATOR",
         Material.PURPUR_PILLAR,
         "&9粒子生产机",
-        "来自虚空",
+        "&7来自虚空",
         "&c需要在末地运行!",
         "",
         LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
@@ -211,7 +211,7 @@ public final class TEItems {
     public static final SlimefunItemStack QUIRP_ANNIHILATOR = new SlimefunItemStack("QUIRP_ANNIHILATOR",
         Material.YELLOW_CONCRETE,
         "&c粒子冷凝机",
-        "需要相对的粒子才能运行",
+        "&7需要相对的粒子才能运行",
         "",
         LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
         LoreBuilder.powerBuffer(1024),
@@ -220,7 +220,7 @@ public final class TEItems {
     public static final SlimefunItemStack QUIRP_CYCLER = new SlimefunItemStack("QUIRP_CYCLER",
         Material.BLUE_CONCRETE,
         "&c粒子转向机",
-        "变成不同的粒子",
+        "&7使粒子转向",
         "",
         LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
         LoreBuilder.powerBuffer(1024),
@@ -238,7 +238,7 @@ public final class TEItems {
     public static final SlimefunItemStack QUIRP_SCATTERER = new SlimefunItemStack("QUIRP_SCATTERER",
         "9343ce58da54c79924a2c9331cfc417fe8ccbbea9be45a7ac85860a6c730",
         "&c粒子发电机",
-        "最好的发电机",
+        "&7最好的发电机",
         "",
         LoreBuilder.machine(MachineTier.END_GAME, MachineType.GENERATOR),
         LoreBuilder.powerBuffer(65536),
@@ -247,7 +247,7 @@ public final class TEItems {
     public static final SlimefunItemStack ZOT_OVERLOADER = new SlimefunItemStack("ZOT_OVERLOADER",
         Material.WHITE_CONCRETE,
         "&9粒子过载机",
-        "用于粒子充能",
+        "&7用于粒子充能",
         "&c需要在末地运行!",
         "",
         LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE),
