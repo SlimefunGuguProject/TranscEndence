@@ -1,6 +1,7 @@
 package me.sfiguz7.transcendence.implementation.items.multiblocks;
 
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.core.multiblocks.MultiBlockMachine;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
@@ -19,19 +20,16 @@ import org.bukkit.inventory.ItemStack;
 
 import java.util.List;
 
-import static me.sfiguz7.transcendence.lists.TEItems.NANOBOT_CRAFTER;
-
-public class NanobotCrafter extends io.github.thebusybiscuit.slimefun4.core.multiblocks.MultiBlockMachine {
+public class NanobotCrafter extends MultiBlockMachine {
 
     public NanobotCrafter() {
-        super(TEItems.transcendence, NANOBOT_CRAFTER, new ItemStack[] {
+        super(TEItems.transcendence, TEItems.NANOBOT_CRAFTER, new ItemStack[] {
                 null, null, null,
                 new ItemStack(Material.END_ROD), null, null,
                 new ItemStack(Material.CHISELED_STONE_BRICKS), new ItemStack(Material.CRAFTING_TABLE),
                 new ItemStack(Material.DISPENSER)},
             new ItemStack[0],
             BlockFace.UP);
-
     }
 
     @Override

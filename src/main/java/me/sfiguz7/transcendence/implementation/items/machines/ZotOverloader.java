@@ -30,19 +30,6 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.Arrays;
 import java.util.List;
 
-import static me.sfiguz7.transcendence.lists.TEItems.QUIRP_DOWN;
-import static me.sfiguz7.transcendence.lists.TEItems.QUIRP_LEFT;
-import static me.sfiguz7.transcendence.lists.TEItems.QUIRP_RIGHT;
-import static me.sfiguz7.transcendence.lists.TEItems.QUIRP_UP;
-import static me.sfiguz7.transcendence.lists.TEItems.ZOT_DOWN;
-import static me.sfiguz7.transcendence.lists.TEItems.ZOT_DOWN_2;
-import static me.sfiguz7.transcendence.lists.TEItems.ZOT_LEFT;
-import static me.sfiguz7.transcendence.lists.TEItems.ZOT_LEFT_2;
-import static me.sfiguz7.transcendence.lists.TEItems.ZOT_RIGHT;
-import static me.sfiguz7.transcendence.lists.TEItems.ZOT_RIGHT_2;
-import static me.sfiguz7.transcendence.lists.TEItems.ZOT_UP;
-import static me.sfiguz7.transcendence.lists.TEItems.ZOT_UP_2;
-
 public class ZotOverloader extends SimpleSlimefunItem<BlockTicker> implements TEInventoryBlock, EnergyNetComponent {
 
     private static final int ENERGY_CONSUMPTION = 1024;
@@ -62,16 +49,16 @@ public class ZotOverloader extends SimpleSlimefunItem<BlockTicker> implements TE
         33, 34, 35,
     };
     private final ItemStack[] allowedSlotsItems = {
-        ZOT_UP,
-        ZOT_DOWN,
-        ZOT_LEFT,
-        ZOT_RIGHT
+        TEItems.ZOT_UP,
+        TEItems.ZOT_DOWN,
+        TEItems.ZOT_LEFT,
+        TEItems.ZOT_RIGHT
     };
     private final ItemStack[] allowedInputItems = {
-        QUIRP_UP,
-        QUIRP_DOWN,
-        QUIRP_LEFT,
-        QUIRP_RIGHT
+        TEItems.QUIRP_UP,
+        TEItems.QUIRP_DOWN,
+        TEItems.QUIRP_LEFT,
+        TEItems.QUIRP_RIGHT
     };
 
     public ZotOverloader() {
@@ -228,14 +215,14 @@ public class ZotOverloader extends SimpleSlimefunItem<BlockTicker> implements TE
     }
 
     private ItemStack getZot(String zotSpin) {
-        if (zotSpin.compareTo("Up") == 0) {
-            return ZOT_UP_2;
-        } else if (zotSpin.compareTo("Down") == 0) {
-            return ZOT_DOWN_2;
-        } else if (zotSpin.compareTo("Left") == 0) {
-            return ZOT_LEFT_2;
+        if (zotSpin.contains("Up")) {
+            return TEItems.ZOT_UP_2;
+        } else if (zotSpin.contains("Down")) {
+            return TEItems.ZOT_DOWN_2;
+        } else if (zotSpin.contains("Left")) {
+            return TEItems.ZOT_LEFT_2;
         }
-        return ZOT_RIGHT_2;
+        return TEItems.ZOT_RIGHT_2;
 
     }
 
