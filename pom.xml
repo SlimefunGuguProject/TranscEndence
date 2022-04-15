@@ -64,8 +64,8 @@
                             <shadedPattern>me.sfiguz7.transcendence.bstats</shadedPattern>
                         </relocation>
                         <relocation>
-                            <pattern>org.bstats.bukkit</pattern>
-                            <shadedPattern>me.sfiguz7.transcendence.bstats</shadedPattern>
+                            <pattern>net.guizhanss.guizhanlib</pattern>
+                            <shadedPattern>me.sfiguz7.transcendence.guizhanlib</shadedPattern>
                         </relocation>
                     </relocations>
 

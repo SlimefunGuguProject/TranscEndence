@@ -4,6 +4,20 @@
 
 通过特定的机器，你可以从虚空中收集粒子。将他们混合重组，你可以制作出全新的物品，最后可以获得全新的能源。终极目标便是制作出一系列物品，可以让你永久获得强力效果（直到死亡）。
 
+## 下载
+
+点击这里下载 TranscEndence: [下载 TranscEndence](https://builds.guizhanss.net/baoad/TranscEndence/master)
+
+<p align="center">
+  <a href="https://github.com/baoad/TranscEndence/actions/workflows/maven.yml">
+    <img src="https://github.com/baoad/TranscEndence/actions/workflows/maven.yml/badge.svg" alt="Java CI"/>
+  </a>
+
+  <a href="https://builds.guizhanss.net/baoad/TranscEndence/master">
+    <img src="https://builds.guizhanss.net/f/baoad/TranscEndence/master/badge.svg" alt="Build status"/>
+  </a>
+</p>
+
 ## 指令
 
 当前可用的指令:
