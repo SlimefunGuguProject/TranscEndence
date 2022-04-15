@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.sfiguz7</groupId>
     <artifactId>TranscEndence</artifactId>
-    <version>35 zh-CN</version>
+    <version>UNOFFICIAL</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -63,6 +63,10 @@
                             <pattern>org.bstats.bukkit</pattern>
                             <shadedPattern>me.sfiguz7.transcendence.bstats</shadedPattern>
                         </relocation>
+                        <relocation>
+                            <pattern>org.bstats.bukkit</pattern>
+                            <shadedPattern>me.sfiguz7.transcendence.bstats</shadedPattern>
+                        </relocation>
                     </relocations>
 
                     <!-- Exclude unneeded metadata files from shaded dependencies -->
@@ -103,9 +107,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.TheBusyBiscuit</groupId>
+            <groupId>io.github.Slimefun</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>RC-27</version>
+            <version>RC-30</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
@@ -117,6 +121,13 @@
                     <artifactId>bstats-bukkit</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>net.guizhanss</groupId>
+            <artifactId>GuizhanLib</artifactId>
+            <version>0.8.5</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

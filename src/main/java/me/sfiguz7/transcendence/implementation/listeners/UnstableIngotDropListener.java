@@ -30,7 +30,7 @@ public class UnstableIngotDropListener implements Listener {
         SlimefunItem sfItem = SlimefunItem.getByItem(e.getItemDrop().getItemStack());
         if (sfItem instanceof UnstableItem) {
             Player p = e.getPlayer();
-            p.sendMessage(ChatColor.LIGHT_PURPLE + "TranscEndence > " + ChatColor.RED +
+            p.sendMessage(ChatColor.LIGHT_PURPLE + "末地科技 > " + ChatColor.RED +
                 instance.getConfig().getString("options.unstable-ingots-message-undroppable"));
             e.setCancelled(true);
         }

@@ -22,8 +22,7 @@ public final class TEItems {
         "&e" + TranscEndence.getInstance().getName() + " " + TranscEndence.getInstance().getPluginVersion(),
         "",
         "&e/te guide &7给你一本指南书",
-        "&e/te walkthrough &7来深入了解",
-        "&7guide/walkthrough 链接"
+        "&e/te walkthrough &7前往Wiki进一步了解"
     );
 
 
@@ -181,7 +180,7 @@ public final class TEItems {
     public static final SlimefunItemStack VERTICAL_POLARIZER = new SlimefunItemStack("VERTICAL_POLARIZER",
         Material.END_ROD,
         "&5垂直偏振器",
-        "&9增加垂直粒子的产出记录",
+        "&9增加垂直粒子的产出几率",
         "&c需要放入粒子生产机"
     );
     public static final SlimefunItemStack HORIZONTAL_POLARIZER = new SlimefunItemStack("HORIZONTAL_POLARIZER",
@@ -195,7 +194,6 @@ public final class TEItems {
         "&c纳米工作台",
         "&7末地科技最基本制作"
     );
-
 
     /* Machines */
     public static final SlimefunItemStack QUIRP_OSCILLATOR = new SlimefunItemStack("QUIRP_OSCILLATOR",
@@ -211,7 +209,7 @@ public final class TEItems {
     public static final SlimefunItemStack QUIRP_ANNIHILATOR = new SlimefunItemStack("QUIRP_ANNIHILATOR",
         Material.YELLOW_CONCRETE,
         "&c粒子冷凝机",
-        "&7需要相对的粒子才能运行",
+        "&7需要两种方向相反的粒子才能运行",
         "",
         LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
         LoreBuilder.powerBuffer(1024),
@@ -220,7 +218,7 @@ public final class TEItems {
     public static final SlimefunItemStack QUIRP_CYCLER = new SlimefunItemStack("QUIRP_CYCLER",
         Material.BLUE_CONCRETE,
         "&c粒子转向机",
-        "&7使粒子转向",
+        "&7使粒子转向(顺时针)",
         "",
         LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
         LoreBuilder.powerBuffer(1024),
@@ -229,7 +227,7 @@ public final class TEItems {
     public static final SlimefunItemStack STABILIZER = new SlimefunItemStack("STABILIZER",
         Material.BLACK_CONCRETE,
         "&c稳定器",
-        "生产不稳定的锭",
+        "冷凝不稳定的锭",
         "",
         LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
         LoreBuilder.powerBuffer(1024),
