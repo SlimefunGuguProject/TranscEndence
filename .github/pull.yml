@@ -4,8 +4,6 @@ rules:
     upstream: Sfiguz7:master
     mergeMethod: merge
     assignees:
-      - baoad
       - ybw0014
     conflictReviewers:
-      - baoad
       - ybw0014
