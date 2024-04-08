@@ -169,8 +169,8 @@ public class ZotOverloader extends SimpleSlimefunItem<BlockTicker> implements TE
                 if (zotCharge == requiredCharge) {
                     menu.replaceExistingItem(ZOT_SLOT, getZot(zotMeta.getDisplayName().split(" ")[1]));
                 } else {
-                    zotMeta.setLore(Arrays.asList(ChatColor.BLUE + "Concentrated matter",
-                        ChatColor.GRAY + "Charge: " + ChatColor.YELLOW + zotCharge + "/" + requiredCharge));
+                    zotMeta.setLore(Arrays.asList(ChatColor.BLUE + "浓缩物质",
+                        ChatColor.GRAY + "充能: " + ChatColor.YELLOW + zotCharge + "/" + requiredCharge));
                 }
 
                 PersistentDataAPI.setInt(zotMeta, chargeKey, zotCharge);
