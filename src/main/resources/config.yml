@@ -6,6 +6,7 @@ options:
   enable-daxi-regen-effects: true
   give-guide-on-first-join: true
   polarizer-affinity-chance: 40
+  zot-required-charge: 1000
   unstable-death-message: " 试图变得不稳定. 他成功了."
   daxi-message-intro: "你感受到力量在你的血管中流动."
   daxi-message-strength: "你的攻击更加迅猛."
@@ -23,3 +24,6 @@ daxi-effects:
   fortitude-level: 4
   saturation-level: 1
   regeneration-level: 2
+
+guide:
+  recieve-on-first-join: true
