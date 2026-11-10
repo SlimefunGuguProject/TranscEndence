@@ -6,17 +6,7 @@
 
 ## 下载
 
-点击这里下载 TranscEndence: [下载 TranscEndence](https://builds.guizhanss.net/baoad/TranscEndence/master)
-
-<p align="center">
-  <a href="https://github.com/baoad/TranscEndence/actions/workflows/maven.yml">
-    <img src="https://github.com/baoad/TranscEndence/actions/workflows/maven.yml/badge.svg" alt="Java CI"/>
-  </a>
-
-  <a href="https://builds.guizhanss.net/baoad/TranscEndence/master">
-    <img src="https://builds.guizhanss.net/f/baoad/TranscEndence/master/badge.svg" alt="Build status"/>
-  </a>
-</p>
+[下载 TranscEndence](https://resources.guizhanss.com/plugin/TranscEndence)
 
 ## 指令
 
